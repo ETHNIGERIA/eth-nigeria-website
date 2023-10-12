@@ -4,7 +4,7 @@ import { Fragment } from "react";
 export default function Home() {
   return (
     <Fragment>
-      <title>Eth Nigeria</title>
+      <title>ETH Nigeria</title>
       <MainLayout>
         hello
       </MainLayout>

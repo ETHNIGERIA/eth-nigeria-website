@@ -2,9 +2,10 @@ import React from 'react';
 
 const HeaderNav = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+      <img src="./images/logo.png" alt="" />
+      <div></div>
+    </header>
   );
 };
 
