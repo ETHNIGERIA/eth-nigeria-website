@@ -1,3 +1,5 @@
+import CommunityCard from "@/components/cards/CommunityCard";
+import EventsCard from "@/components/cards/EventsCard";
 import Contact from "@/components/sections/Contact";
 import Gallery from "@/components/sections/Gallery";
 import MainLayout from "@/layout/MainLayout";
@@ -9,7 +11,7 @@ export default function Home() {
       <title>ETH Nigeria</title>
       <MainLayout>
         <section>
-          <div className="lg:w-[60%] mx-auto text-center lg:py-40 py-32 relative">
+          <div className="lg:w-[60%] mx-auto text-center lg:py-44 py-32 relative">
             <h1 className="lg:text-6xl text-5xl font-bold">Join Us For A Year Of Blockchain Innovation</h1>
             <p className="my-4">We are growing the Ethereum ecosystem in Africa</p>
             <button className="flex mt-6 mx-auto border-2 p-4 text-primary rounded-xl border-primary font-medium border-b-8">Join Our Community <img className="w-4 my-auto mx-2" src="./images/icons/arrow-up-right.png" alt="" /></button>
@@ -23,7 +25,32 @@ export default function Home() {
             <img src="./images/patterns/palm.png" className="absolute right-8 bottom-44 sm:w-8" alt="" />
           </div>
         </section>
+        <section className="lg:mx-32 mx-4 lg:my-40 my-20">
+          <div className='text-center lg:w-1/2 mx-auto'>
+            <h1 className='lg:text-6xl text-4xl'>Our Communities Across The Country</h1>
+            <p className='my-4'>There is an Ethereum community close to you.</p>
+          </div>
+          <div className="lg:flex mt-6 justify-between">
+            <CommunityCard />
+            <CommunityCard />
+            <CommunityCard />
+          </div>
+          <div>
+            <button className="flex mt-6 mx-auto border-2 p-4 text-primary rounded-xl border-primary font-medium border-b-8">View All Communities <img className="w-4 my-auto mx-2" src="./images/icons/arrow-up-right.png" alt="" /></button>
+          </div>
+        </section>
 
+        <section className="lg:mx-32 mx-4 lg:my-40 my-20">
+          <div className='text-center lg:w-1/2 mx-auto'>
+            <h1 className='lg:text-6xl text-4xl'>Events And Roadshows</h1>
+            <p className='my-4'>Register to attend our upcoming events and roadshows</p>
+          </div>
+          <div className="lg:flex mt-6 justify-between">
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+          </div>
+        </section>
         <Gallery />
         <Contact />
       </MainLayout>
