@@ -10,6 +10,12 @@ body {
   color: #131313;
 }
 
+section {
+  background-image: url('../../public/images/patterns/patterns.png');
+  /* background-position: ; */
+  background-repeat: no-repeat;
+}
+
 footer p {
   color: #686764;
 }
