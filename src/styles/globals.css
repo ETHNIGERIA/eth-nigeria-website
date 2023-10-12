@@ -6,4 +6,10 @@
 
 body {
   font-family: 'Prompt', sans-serif;
+  background-color: #FFFEF5;
+  color: #131313;
+}
+
+footer p{
+  color: #686764;
 }
