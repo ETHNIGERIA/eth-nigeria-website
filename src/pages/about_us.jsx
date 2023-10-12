@@ -1,5 +1,7 @@
 import MainLayout from "@/layout/MainLayout";
 import { Fragment } from "react";
+import Contact from "@/components/sections/Contact";
+
 
 export default function Home() {
   return (
@@ -69,6 +71,9 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <Contact/>
+
+        
       </MainLayout>
     </Fragment>
   );

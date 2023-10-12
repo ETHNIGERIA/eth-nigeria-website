@@ -3,6 +3,7 @@ import EventsCard from "@/components/cards/EventsCard";
 import Contact from "@/components/sections/Contact";
 import Gallery from "@/components/sections/Gallery";
 import MainLayout from "@/layout/MainLayout";
+
 import { Fragment } from "react";
 
 export default function Home() {
