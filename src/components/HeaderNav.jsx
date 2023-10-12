@@ -25,7 +25,7 @@ const HeaderNav = () => {
             <p className='my-auto text-base'>Home</p>
           </Link>
 
-          <Link href={'/'} >
+          <Link href={'/communities'} >
             <p className='my-auto text-base'>Communities</p>
           </Link>
 
@@ -55,7 +55,7 @@ const HeaderNav = () => {
               <p className='my-5 text-base'>Home</p>
             </Link>
 
-            <Link href={'/'} >
+            <Link href={'/communities'} >
               <p className='my-5 text-base'>Communities</p>
             </Link>
 
