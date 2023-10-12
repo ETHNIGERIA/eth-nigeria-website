@@ -73,6 +73,11 @@ main {
   height: 1px;
 }
 
+/* background image used in about us page */
+.custom-bg-image {
+  background-image: url('../../public/images/aboutus/patterns.png'); 
+  background-size: contain; 
+}
 @media (max-width: 500px) {
   .sidenav {
     padding-top: 30px;
