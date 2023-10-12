@@ -10,7 +10,10 @@ module.exports = {
 
     },
     colors: {
-      primary: "#0B8311"
+      primary: "#0B8311",
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
     },
     screens: {
       sm: { max: "700px" },

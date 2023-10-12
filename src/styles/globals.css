@@ -8,6 +8,9 @@ body {
   font-family: 'Prompt', sans-serif;
   background-color: #FFFEF5;
   color: #131313;
+  background-image: url('../../public/images/patterns/patterns.png');
+  background-position: center;
+  background-repeat: space;
 }
 
 footer p {
