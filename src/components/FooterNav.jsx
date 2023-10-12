@@ -18,7 +18,7 @@ const FooterNav = () => {
         </div>
         <div className='flex sm:mt-6 justify-between lg:w-[25%]'>
           <div>
-            <h4 className='font-bold'>Products</h4>
+            <h4 className='font-medium'>Products</h4>
             <Link href={'/'}>
               <p className='my-2'>Hackathons</p>
             </Link>
@@ -36,7 +36,7 @@ const FooterNav = () => {
             </Link>
           </div>
           <div>
-            <h4 className='font-bold'>Company</h4>
+            <h4 className='font-medium'>Company</h4>
             <Link href={'/'}>
               <p className='my-2'>About Us</p>
             </Link>
