@@ -8,9 +8,12 @@ body {
   font-family: 'Prompt', sans-serif;
   background-color: #FFFEF5;
   color: #131313;
+}
+
+section {
   background-image: url('../../public/images/patterns/patterns.png');
-  background-position: center;
-  background-repeat: space;
+  /* background-position: ; */
+  background-repeat: no-repeat;
 }
 
 footer p {

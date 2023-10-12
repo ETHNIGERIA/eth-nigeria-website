@@ -27,7 +27,7 @@ const Contact = () => {
 
         </div>
       </div>
-      <img src="./images/Messaging.png" className='absolute top-0 right-0 sm:hidden' alt="" />
+      <img src="./images/Messaging.png" className='absolute top-0 right-0 md:hidden lg:block sm:hidden' alt="" />
     </section>
   );
 };

@@ -51,6 +51,41 @@ export default function Home() {
             <EventsCard />
           </div>
         </section>
+
+        <section className="lg:mx-32 mx-4 lg:my-40 my-20 relative">
+          <div className='text-center lg:w-1/2 mx-auto'>
+            <h1 className='lg:text-6xl text-4xl'>Why We Rock</h1>
+            <p className='my-4'>We get you prepared for an exciting blockchain ride!</p>
+          </div>
+          <div className=" mt-6 lg:text-base text-sm">
+            <div className="lg:w-[35%] ml-auto border-x-2  my-6 border-y-4 border-[#F8E8A9] bg-[#FDF8E2] rounded-xl p-6">
+              <p>We are building a thriving Ethereum ecosystem in Nigeria. Through collaboration and knowledge sharing, we aim to make blockchain accessible to all Nigerians, and Africans.</p>
+            </div>
+            <div className="lg:w-[35%] ml-auto lg:mr-40 border-x-2  my-6 border-y-4 border-[#9DCB99] bg-[#E7EFDD] rounded-xl p-6">
+              <p>We see a future where decentralized applications and smart contracts drive economic growth, democratize finance, and uplift communities throughout our great nation.</p>
+            </div>
+            <div className="lg:w-[35%] ml-auto lg:mr-80 border-x-2 my-6 border-y-4 border-[#F7C4E2] bg-[#FCEFF7] rounded-xl px-6 py-12">
+              <p>Through collaboration and knowledge sharing, we aim to make blockchain accessible to all Nigerians</p>
+            </div>
+          </div>
+          <img src="./images/Travel.png" className="absolute md:hidden lg:block sm:hidden top-0" alt="" />
+        </section>
+
+        <section className="lg:mx-32 mx-4 lg:my-40 my-20 relative">
+          <div className='text-center lg:w-1/2 mx-auto'>
+            <h1 className='lg:text-6xl text-4xl'>Our Sponsors</h1>
+            <p className='my-4'>Our amazing sponsors have gone over and beyond, to make our roadshows and workshops successful</p>
+          </div>
+          <div className="flex flex-wrap justify-between w-[60%] mx-auto">
+            <img className="lg:w-44 w-[45%] lg:h-40 mt-4" src="./images/sponsors/eth.png" alt="" />
+            <img className="lg:w-44 w-[45%] lg:h-40 mt-4"  src="./images/sponsors/fil.png" alt="" />
+            <img className="lg:w-44 w-[45%] lg:h-40 mt-4"  src="./images/sponsors/ethf.png" alt="" />
+            <img className="lg:w-44 w-[45%] lg:h-40 mt-4"  src="./images/sponsors/soar.png" alt="" />
+          </div>
+          <div className="text-center">
+            <button className="mt-6 mx-auto border-2 p-4 text-primary rounded-xl border-primary font-medium border-b-8 w-52 ">Sponsor Us </button>
+          </div>
+        </section>
         <Gallery />
         <Contact />
       </MainLayout>

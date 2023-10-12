@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommunityCard = () => {
   return (
-    <div className='border rounded-xl border-b-4 border-[#131313] lg:w-[32%] sm:my-6'>
+    <div className='border rounded-xl border-b-4 border-[#131313] lg:w-[32%] my-6'>
       <div className='flex'>
         <div className='p-3'>
           <p className='font-medium my-2 text-lg'>Ethereum Lagos Community</p>

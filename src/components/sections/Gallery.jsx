@@ -10,7 +10,7 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel-rtl'), {
 
 const Gallery = () => {
   return (
-    <section>
+    <section className='bg-[#FDF8E2] lg:py-20'>
       <div className='text-center lg:w-1/2 mx-auto'>
         <h1 className='lg:text-6xl text-4xl'>Gallery From Our Roadshows and Workshops</h1>
         <p className='my-4'>See pictures from our roadshow and workshop events. Won’t you love to join us?</p>
