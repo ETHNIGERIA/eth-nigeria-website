@@ -44,6 +44,15 @@ footer p {
 }
 
 /* The navigation menu links */
+.navside{
+  background-color:#9DCB99 ;
+  border:#0B8311 solid 2px;
+  padding: 0.5rem;
+}
+
+.navside:hover {
+  background:red;
+}
 /* .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
