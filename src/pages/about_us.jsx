@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import Contact from "@/components/sections/Contact";
 
 
-export default function Home() {
+export default function AboutUs() {
   return (
     <Fragment>
       <title>About Us || ETH Nigeria</title>
