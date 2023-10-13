@@ -62,7 +62,33 @@ export default function Blog() {
           </div>
         </div>
 
-        <EventsCard/>
+
+        <div className="lg:mx-20 mx-4 flex flex-col mt-24">
+        <p className="pr-14 text-[#686764] text-2xl  bg-[#EDEDED] p-4 border-solid border-2  rounded-lg border-[#686764] self-start">Events</p>
+          <div className="lg:flex mt-6 justify-between">
+           
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+          </div>
+
+          <p className=" bold self-center pr-14 text-primary text-2xl  bg- p-4 border-solid border-2 border-b-8 rounded-lg border-primary ">View All Events</p>
+        </div>
+
+        <div className="lg:mx-20 mx-4 flex flex-col mt-24">
+        <p className="pr-14 text-[#EEC638] text-2xl   p-4 border-solid border-2  rounded-lg border-[#EEC638] self-start">Workshops</p>
+          <div className="lg:flex  flex-wrap mt-6 justify-between">
+           
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+          </div>
+
+         
+        </div>
       </MainLayout>
     </Fragment>
   );
