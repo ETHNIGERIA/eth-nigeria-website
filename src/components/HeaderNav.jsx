@@ -37,7 +37,7 @@ const HeaderNav = () => {
             <p className='my-auto text-base'>About Us</p>
           </Link>
 
-          <Link href={'/'} >
+          <Link href={'/blog'} >
             <p className='my-auto text-base'>Blog</p>
           </Link>
         </div>
