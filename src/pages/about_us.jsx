@@ -6,7 +6,7 @@ import Contact from "@/components/sections/Contact";
 export default function AboutUs() {
   return (
     <Fragment>
-      <title>ETH Nigeria</title>
+      <title>About Us || ETH Nigeria</title>
       <MainLayout>
         <div className="custom-bg-image">
           <div className=" lg:mx-20 md:pb-10 pb-10 border-t-0 border-r-0 rounded-bl-lg px-4  mx-4 grid md:grid-cols-11 border border-solid border-gray-600 grid-cols-1 mt-24">
@@ -48,7 +48,7 @@ export default function AboutUs() {
             </p>
           </div>
           <div className="bg-[#FCF0CE] border-solid border-2 border-b-8 rounded-lg border-black px-4  pb-20 pt-10 flex gap-4 flex-col items-center justify-center  text-center">
-          <img className="w-18 p-4 rounded-full bg-[#F9BEE0]" src="./images/aboutus/heroicons-outline_light-bulb.png" alt="" />
+            <img className="w-18 p-4 rounded-full bg-[#F9BEE0]" src="./images/aboutus/heroicons-outline_light-bulb.png" alt="" />
             <p className="text-xl  font-medium">Our Vision</p>
             <p>
               Our vision is to create a vibrant and inclusive Ethereum community
@@ -60,8 +60,8 @@ export default function AboutUs() {
             </p>
           </div>
           <div className="bg-green-600 border-solid border-2 border-b-8 rounded-lg border-black px-4  pb-20 pt-10 flex gap-4 flex-col items-center justify-center  text-center">
-          <img className="w-16 " src="./images/aboutus/Frame 1321316567.png" alt="" />
-          
+            <img className="w-16 " src="./images/aboutus/Frame 1321316567.png" alt="" />
+
             <p className="text-xl  font-medium">Our Values</p>
             <p>
               We are committed to providing accessible and comprehensive
@@ -71,9 +71,9 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-        <Contact/>
+        <Contact />
 
-        
+
       </MainLayout>
     </Fragment>
   );

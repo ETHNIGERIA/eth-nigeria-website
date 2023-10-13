@@ -9,7 +9,7 @@ const EventsCard = () => {
           <p className='my-2 sm:text-sm flex mt-4'> <img className='mr-2' src="./images/icons/clock.png" alt="" /> 18th October 2023</p>
           <p className='my-2 sm:text-sm flex'> <img className='mr-2' src="./images/icons/gps.png" alt="" /> The Zone Events</p>
         </div>
-        <img className='sm:w-[40%] sm:h-[40%] ' src="./images/event.png" alt="" />
+        <img className='sm:w-[40%] h-40 sm:h-[40%] ' src="./images/event.png" alt="" />
       </div>
       <div className='flex flex-wrap p-3'>
         <button className='text-[#ED6DB8] p-1 border text-sm border-[#ED6DB8] bg-[#FCEFF7] rounded-sm'>Community</button>
