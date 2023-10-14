@@ -34,6 +34,7 @@ const HeaderNav = () => {
 
   useEffect(() => {
     setActiveState(router.pathname);
+  
   }, [router.pathname]);
 
   return (
