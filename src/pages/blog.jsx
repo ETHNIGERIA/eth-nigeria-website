@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import MainLayout from "@/layout/MainLayout";
 import EventsCard from "@/components/cards/EventsCard";
+import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -67,24 +68,22 @@ export default function Blog() {
         <p className="pr-14 text-[#686764] text-2xl  bg-[#EDEDED] p-4 border-solid border-2  rounded-lg border-[#686764] self-start">Events</p>
           <div className="lg:flex mt-6 justify-between">
            
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
+          <EventsCard  title="Content Design workshop" date="7pm 15th Oct 2023" venue="Online" regLink=" https://bit.ly/ETHLagosWorkshop" organiser=" Ethereum Lagos" />
+            <EventsCard  title="Blockchain 101 Workshop" date="11am 21st Oct 2023" venue="Online" regLink="https://bit.ly/ETHBeninWorkshop" organiser=" Ethereum Benin" />
+            <EventsCard  title="ZK Workshop " date="11am 21st Oct 2023" venue="Online" regLink=" https://bit.ly/ETHPortharcourt" organiser="Ethereum Portharcourt" />
           </div>
-
-          <p className=" bold self-center pr-14 text-primary text-2xl  bg- p-4 border-solid border-2 border-b-8 rounded-lg border-primary ">View All Events</p>
+          <Link className=" bold self-center pr-14 text-primary text-2xl  bg- p-4 border-solid border-2 border-b-8 rounded-lg border-primary " href={"/events"}>
+          <p >View All Events</p>
+          </Link>
         </div>
 
         <div className="lg:mx-20 mx-4 flex flex-col mt-24">
         <p className="pr-14 text-[#EEC638] text-2xl   p-4 border-solid border-2  rounded-lg border-[#EEC638] self-start">Workshops</p>
           <div className="lg:flex  flex-wrap mt-6 justify-between">
            
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
+          <EventsCard  title="Content Design workshop" date="7pm 15th Oct 2023" venue="Online" regLink=" https://bit.ly/ETHLagosWorkshop" organiser=" Ethereum Lagos" />
+            <EventsCard  title="Blockchain 101 Workshop" date="11am 21st Oct 2023" venue="Online" regLink="https://bit.ly/ETHBeninWorkshop" organiser=" Ethereum Benin" />
+            <EventsCard  title="ZK Workshop " date="11am 21st Oct 2023" venue="Online" regLink=" https://bit.ly/ETHPortharcourt" organiser="Ethereum Portharcourt" />
           </div>
 
          
