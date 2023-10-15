@@ -38,7 +38,7 @@ const HeaderNav = () => {
   }, [router.pathname]);
 
   return (
-    <header className="lg:px-20 bg-[#FFFEF5] px-4 flex justify-between py-12  border-b border-[#686764]">
+    <header className="lg:px-20 bg-[#FFFEF5] px-4 flex justify-between lg:py-12 py-6  border-b border-[#686764]">
       <div className="flex">
         <img src="./images/logo.png" alt="" />
         <p className="my-auto sm:hidden ml-4 text-lg">Ethereum Nigeria</p>

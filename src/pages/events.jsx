@@ -16,11 +16,10 @@ const Events = () => {
             <p className='my-4'>Register to attend our upcoming Workshops In this Q4</p>
           </div>
           <div className="lg:flex flex-wrap mt-6 justify-between">
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
+          <EventsCard  title="Content Design workshop" date="7pm 15th Oct 2023" venue="Online" regLink=" https://bit.ly/ETHLagosWorkshop" organiser=" Ethereum Lagos" />
+            <EventsCard  title="Blockchain 101 Workshop" date="11am 21st Oct 2023" venue="Online" regLink="https://bit.ly/ETHBeninWorkshop" organiser=" Ethereum Benin" />
+            <EventsCard  title="ZK Workshop " date="11am 21st Oct 2023" venue="Online" regLink=" https://bit.ly/ETHPortharcourt" organiser="Ethereum Portharcourt" />
+            
           </div>
         </section>
 
@@ -30,9 +29,9 @@ const Events = () => {
             <p className='my-4'>Register to attend our upcoming events and roadshows</p>
           </div>
           <div className="lg:flex mt-6 justify-between">
-            <EventsCard />
-            <EventsCard />
-            <EventsCard />
+          <EventsCard  title="Content Design workshop" date="7pm 15th Oct 2023" venue="Online" regLink=" https://bit.ly/ETHLagosWorkshop" organiser=" Ethereum Lagos" />
+            <EventsCard  title="Blockchain 101 Workshop" date="11am 21st Oct 2023" venue="Online" regLink="https://bit.ly/ETHBeninWorkshop" organiser=" Ethereum Benin" />
+            <EventsCard  title="ZK Workshop " date="11am 21st Oct 2023" venue="Online" regLink=" https://bit.ly/ETHPortharcourt" organiser="Ethereum Portharcourt" />
           </div>
         </section>
 
