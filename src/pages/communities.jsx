@@ -29,10 +29,13 @@ const Communities = () => {
             <p className='my-4'>There is an Ethereum community close to you, check it out and join.</p>
           </div>
           <div className="lg:flex flex-wrap mt-6 justify-between">
-            <CommunityCard />
-            <CommunityCard />
-            <CommunityCard />
-            <CommunityCard />
+          <CommunityCard state="Lagos" image="./images/Eko-Bridge.png" communityLink="https://t.me/ETHNigeria"/>
+            <CommunityCard state="Abuja" image="./images/Zuma-Rock.png" communityLink="https://t.me/ETHNigeria"/>
+            <CommunityCard state="Anambra" image="./images/logo (1).png" communityLink="https://t.me/ETHNigeria"/>
+            <CommunityCard state="Portharcourt" image="./images/portharcourt.png" communityLink="https://t.me/ETHNigeria"/>
+            <CommunityCard state="Edo" image="./images/logo (1).png" communityLink="https://t.me/ETHNigeria"/>
+            <CommunityCard state="Delta" image="./images/logo (1).png" communityLink="https://t.me/ETHNigeria"/>
+            <CommunityCard state="Kaduna" image="./images/Kaduna.png" communityLink="https://t.me/ETHNigeria"/>
           </div>
         </section>
 
