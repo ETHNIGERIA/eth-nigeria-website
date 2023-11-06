@@ -8,7 +8,7 @@ const OwlCarousel = dynamic(() => import('react-owl-carousel-rtl'), {
 });
 
 
-const Gallery = ({img1,img2,img3,img4,img5,img6,img7,img8}) => {
+const Gallery = ({img1,img2,img3,img4,img5,img6,img7,img8,state,text}) => {
 
 
 
@@ -16,9 +16,9 @@ const Gallery = ({img1,img2,img3,img4,img5,img6,img7,img8}) => {
     <section className='bg-[#FDF8E2] lg:py-20'>
       
       <div className='text-center lg:w-1/2 mx-auto'>
-        <h1 className='lg:text-6xl text-4xl'>Gallery From Our Roadshows and Workshops</h1>
+        <h1 className='lg:text-6xl text-4xl'>Gallery From Our {state} Meetup Workshop</h1>
        
-        <p className='my-4'>See pictures from our roadshow and workshop events. Won’t you love to join us?</p>
+        <p className='my-4'>{text}</p>
       </div>
      
 
@@ -68,8 +68,8 @@ const Gallery = ({img1,img2,img3,img4,img5,img6,img7,img8}) => {
           </div> */}
         </OwlCarousel>
       </div>
-
-      <div className='mt-10'>
+<div className=''></div>
+      <div className='mt-10 '>
         <OwlCarousel
           responsive={
             {
@@ -97,16 +97,16 @@ const Gallery = ({img1,img2,img3,img4,img5,img6,img7,img8}) => {
           }
         >
           <div>
-            <img className='lg:mt-6 mt-3' src={img2} alt="" />
+            <img className='lg:mt-6 mt-3' src={img5} alt="" />
           </div>
           <div>
-            <img src={img3} alt="" />
+            <img src={img4} alt="" />
           </div>
           <div>
-            <img className='lg:mt-6 mt-3' src={img4} alt="" />
+            <img className='lg:mt-6 mt-3' src={img1} alt="" />
           </div>
           <div>
-            <img src={img6} alt="" />
+            <img src={img2} alt="" />
           </div>
 
           

@@ -88,8 +88,8 @@ export default function Home() {
             <button className="mt-6 mx-auto border-2 p-4 text-primary rounded-xl border-primary font-medium border-b-8 w-52 ">Sponsor Us </button>
           </div>
         </section>
-        <Gallery img1="./images/gallery/img1.png" img2="./images/gallery/img2.png" img3="./images/gallery/img3.png" img4="./images/gallery/img4.png" img5="./images/gallery/img5.png" img6="./images/gallery/img6.png" img7="./images/gallery/img7.png" img8="./images/gallery/img8.png"/>
-        
+        <Gallery state="Lagos" text="View captivating snapshots from our Roadshow Workshop in Lagos. Wouldn't you like to be a part of our next one?"  img1="./images/gallery/img1.png" img2="./images/gallery/img2.png" img3="./images/gallery/img3.png" img4="./images/gallery/img4.png" img5="./images/gallery/img5.png" img6="./images/gallery/img6.png" img7="./images/gallery/img7.png" img8="./images/gallery/img8.png"/>
+     
         <Contact />
       </MainLayout>
     </Fragment>

@@ -63,30 +63,110 @@ export default function Blog() {
           </div>
         </div>
 
-
         <div className="lg:mx-20 mx-4 flex flex-col mt-24">
-        <p className="pr-14 text-[#686764] text-2xl  bg-[#EDEDED] p-4 border-solid border-2  rounded-lg border-[#686764] self-start">Events</p>
+          <p className="pr-14 text-[#686764] text-2xl  bg-[#EDEDED] p-4 border-solid border-2  rounded-lg border-[#686764] self-start">
+            Events
+          </p>
           <div className="lg:flex mt-6 justify-between">
-           
-          <EventsCard  title="Content Design workshop" date="7pm 15th Oct 2023" venue="Online" regLink=" https://bit.ly/ETHLagosWorkshop" organiser=" Ethereum Lagos" />
-            <EventsCard  title="Blockchain 101 Workshop" date="10am 21st Oct 2023" venue="Online" regLink="https://bit.ly/ETHBeninWorkshop" organiser=" Ethereum Benin" />
-            <EventsCard  title="ZK Workshop " date="12pm 21st Oct 2023" venue="Online" regLink=" https://bit.ly/ETHPortharcourt" organiser="Ethereum Portharcourt" />
+            <EventsCard
+              title="Q&A Session With Vitalik Buterin"
+              date="7pm 18th Oct 2023"
+              venue="The Zone Events"
+              regLink=" https://bit.ly/ETHLagosWorkshop"
+              organiser=" Ethereum NIG"
+              img="./images/event.png"
+            />
+             <EventsCard
+              title="Ethereum Meetup Anambra"
+              date="7pm 18th Oct 2023"
+              venue="The Zone Events"
+              regLink=" https://bit.ly/ETHLagosWorkshop"
+              organiser=" Ethereum NIG"
+              img="./images/event.png"
+            />
+            <EventsCard
+              title="ETH Global Conference 202"
+              date="7pm 18th Oct 2023"
+              venue="The Zone Events"
+              regLink=" https://bit.ly/ETHLagosWorkshop"
+              organiser=" Ethereum NIG"
+              img="./images/event.png"
+            />
           </div>
-          <Link className=" bold self-center pr-14 text-primary text-2xl  bg- p-4 border-solid border-2 border-b-8 rounded-lg border-primary " href={"/events"}>
-          <p >View All Events</p>
+          <Link
+            className=" bold self-center pr-14 text-primary text-2xl  bg- p-4 border-solid border-2 border-b-8 rounded-lg border-primary "
+            href={"/events"}
+          >
+            <p>View All Events</p>
           </Link>
         </div>
 
         <div className="lg:mx-20 mx-4 flex flex-col mt-24">
-        <p className="pr-14 text-[#EEC638] text-2xl   p-4 border-solid border-2  rounded-lg border-[#EEC638] self-start">Workshops</p>
+          <p className="pr-14 text-[#EEC638] text-2xl   p-4 border-solid border-2  rounded-lg border-[#EEC638] self-start">
+            Workshops
+          </p>
           <div className="lg:flex  flex-wrap mt-6 justify-between">
-           
-          <EventsCard  title="Content Design workshop" date="7pm 15th Oct 2023" venue="Online" regLink=" https://bit.ly/ETHLagosWorkshop" organiser=" Ethereum Lagos" />
-            <EventsCard  title="Blockchain 101 Workshop" date="11am 21st Oct 2023" venue="Online" regLink="https://bit.ly/ETHBeninWorkshop" organiser=" Ethereum Benin" />
-            <EventsCard  title="ZK Workshop " date="11am 21st Oct 2023" venue="Online" regLink=" https://bit.ly/ETHPortharcourt" organiser="Ethereum Portharcourt" />
-          </div>
+            <EventsCard
+              title="Content Design workshop"
+              date="7pm 15th Oct 2023"
+              venue="Lagos NG"
+              regLink=" https://bit.ly/ETHLagosWorkshop"
+              organiser=" Ethereum Lagos"
+              img="./images/workshop/OBJECTS.png"
+            />
+            <EventsCard
+              title="Blockchain 101 Workshop"
+              date="10am 21st Oct 2023"
+              venue="Benin NG"
+              regLink="https://bit.ly/ETHBeninWorkshop"
+              organiser=" Ethereum Benin"
+              img="./images/workshop/blockschain101.png"
+            />
+            <EventsCard
+              title="ZK Workshop "
+              date="12pm 21st Oct 2023"
+              venue="Portharcourt NG"
+              regLink=" https://bit.ly/ETHPortharcourt"
+              organiser="Ethereum Portharcourt"
+              img="./images/workshop/zkworkshop.png"
+            />
 
-         
+            <EventsCard
+              title="Privacy
+              Workshop "
+              date="28th October 2023"
+              venue="Abuja NG"
+              regLink="#"
+              organiser="Ethereum Abuja"
+              img="./images/workshop/privacy.png"
+            />
+
+            <EventsCard
+              title="Blockchain 101 Workshop"
+              date="28st Oct 2023"
+              venue="Anambra NG"
+              regLink="3"
+              organiser=" Ethereum Anambra"
+              img="./images/workshop/blockschain101.png"
+            />
+
+            <EventsCard
+              title="DOA Workshop"
+              date="10am 28st Oct 2023"
+              venue="Enugu NG"
+              regLink="#"
+              organiser=" Ethereum Enugu"
+              img="./images/workshop/DOA.png"
+            />
+            <EventsCard
+              title="Account Abstraction Workshop"
+              date=" 31st Oct 2023"
+              venue="The Zone Event"
+              regLink="#"
+              organiser=" Ethereum Enugu"
+              img="./images/workshop/ABSTRACTION.png"
+            />
+          </div>
         </div>
       </MainLayout>
     </Fragment>
