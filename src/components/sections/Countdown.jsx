@@ -1,6 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Countdown = () => {
+
+
+  //timer logic
+  const calculateTimeLeft = () => {
+    const eventDate = new Date('2023-12-01T11:00:00Z');// Set your event date and time here
+    const now = new Date();
+    const difference = eventDate - now;
+
+    if (difference > 0) {
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((difference / 1000 / 60) % 60);
+      const seconds = Math.floor((difference / 1000) % 60);
+
+      return { days, hours, minutes, seconds };
+    }
+    return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  
   return (
     <section className='lg:mx-20 my-20'>
       <div className='text-center lg:w-1/2 mx-auto'>
@@ -13,25 +43,25 @@ const Countdown = () => {
           <div className='flex flex-wrap mb-10 justify-between lg:w-[50%] mx-auto'>
             <div className=' text-center'>
               <div className='bg-[#E7EFDD] w-32 border-2 border-primary border-b-4 border-r-4 rounded-md text-4xl font-bold p-8'>
-                6
+                {timeLeft.days}
               </div>
               <p className='text-sm my-2'>Days</p>
             </div>
             <div className='text-center'>
               <div className='bg-[#E7EFDD] w-32 border-2 border-[#ED6DB8] border-b-4 border-r-4 rounded-md text-4xl font-bold p-8'>
-                20
+                {timeLeft.hours}
               </div>
               <p className='text-sm my-2'>Hours</p>
             </div>
             <div className='text-center'>
               <div className='bg-[#E7EFDD] w-32 border-2 border-[#EEC638] border-b-4 border-r-4 rounded-md text-4xl font-bold p-8'>
-                45
+                {timeLeft.minutes}
               </div>
               <p className='text-sm my-2'>Minutes</p>
             </div>
             <div className='text-center'>
               <div className='bg-[#E7EFDD] w-32 border-2 border-[#131313] border-b-4 border-r-4 rounded-md text-4xl font-bold p-8'>
-                10
+              {timeLeft.seconds}
               </div>
               <p className='text-sm my-2'>Seconds</p>
             </div>
