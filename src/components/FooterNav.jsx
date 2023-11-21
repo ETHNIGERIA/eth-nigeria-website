@@ -55,7 +55,7 @@ const FooterNav = () => {
           <img src="./images/icons/mingcute_linkedin-fill.png" className='w-8' alt="" />
           <img src="./images/icons/basil_instagram-solid.png" className='w-8' alt="" />
           <a target="_blank" href="https://twitter.com/EthereumNigeria" >  <img  src="./images/icons/simple-icons_x.png" className='w-8' alt="" /></a> 
-          <a target="_blank" href="https://medium.com/@ethereumnigeria" ><img src="./images/icons/bi_medium.png" className='w-8' alt="" /></a> 
+          <a target="_blank" href="https://medium.com/ethereumnigeria" ><img src="./images/icons/bi_medium.png" className='w-8' alt="" /></a> 
         </div>
         <p className='flex my-auto sm:text-sm sm:mt-6 order-first'> <img className='w-4 h-4 my-auto mr-2' src="./images/icons/ic_outline-copyright.png" alt="" /> 2023 Ethereum Nigeria. All rights reserved.</p>
       </div>

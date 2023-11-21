@@ -126,7 +126,7 @@ const HeaderNav = () => {
               <p className="my-5 text-base">Communities</p>
             </Link>
 
-            <Link href={"/"}>
+            <Link href={"/events"}>
               <p className="my-5 text-base">Events</p>
             </Link>
 

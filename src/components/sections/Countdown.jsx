@@ -71,7 +71,7 @@ const Countdown = () => {
             <h4 className='lg:text-4xl text-2xl lg:w-[60%] font-medium'>Are you ready for the ETH bootcamp 2023?</h4>
             <p className='my-4 sm:text-sm'>Our Road Show Workshop kicks off in Abuja, FCT, touring through vibrant cities in Nigeria, and culminating at the grand stage of EFDevconnect Istanbul 2023. Get ready to explore, learn, and connect on this incredible ride!</p>
 
-            <button className="mt-6 w-52 border-2 p-4 text-primary rounded-xl border-primary font-medium border-b-8">Join Waitlist </button>
+            <button className="mt-6 w-52 border-2 p-4 text-primary rounded-xl border-primary font-medium border-b-8"> <a target="_blank" href="https://forms.gle/5uNCr9oxQoaNamkX8">Join Waitlist</a> </button>
 
           </div>
         </div>
